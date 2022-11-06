@@ -1,0 +1,93 @@
+*{
+    margin: 0px;
+    padding: 0px;
+}
+a{
+    text-decoration: none;
+}
+body{
+    font-family: 'Roboto', sans-serif;
+}
+.img-fluid{
+    width: 100%;
+    height: auto;
+}
+.wrapper{
+    width: 100%;
+    padding: 100px 0px;
+    background: linear-gradient(To right, #C1DEAE,#18978F);
+}
+.form-box{
+    width: 1000px;
+    background-color: white;
+    margin: auto;
+    border-radius: 8px;
+}
+.form-row{
+    display: flex;
+}
+.form-left, .form-right{
+    flex-basis: 50%;
+}
+.right-content{
+    padding: 40px 60px;
+}
+.right-content h2{
+    text-transform: uppercase;
+    font-weight: 600;
+    margin-bottom: 32px;
+}
+.form-group{
+    margin: 16px 0px;
+    display: block;
+    width: 100%;
+}
+.form-control{
+    padding: 14px 10px;
+    width: 94%;
+}
+.d-flex{
+    display: flex;
+    justify-content: space-between;
+}
+.f-b-42{
+    flex-basis: 42%;
+}
+.f-b-48{
+    flex-basis: 48%;
+}
+.form-control:focus{
+    outline-color: red;
+}
+.form-control:focus::placeholder{
+    color: red;
+}
+.my-2{
+    margin: 32px 0px;
+}
+.form-group span{
+    color: black;
+    margin-right: 32px;
+}
+.form-group label{
+    margin-right: 16px;
+}
+.btn{
+    padding: 16px 24px;
+    background-color: red;
+    border: none;
+    border-radius: 4px;
+    text-transform: uppercase;
+    margin-left: 8px;
+}
+.text-right{
+    text-align: right;
+}
+.white{
+    background-color: white;
+    box-shadow: 4px 4px 8px rgb(0,0,0,0.3);
+}
+.yellow{
+    background-color: yellow;
+    box-shadow: 4px 4px 8px rgb(0,0,0,0.3);
+}
